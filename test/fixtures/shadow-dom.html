@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>shadow-dom</title><style>body{margin:0}</style></head>
+<body>
+<div id="host" style="overflow:hidden"></div>
+<script>
+const root = document.getElementById('host').attachShadow({ mode: 'open' });
+root.innerHTML = '<style>.h{position:sticky;top:0;height:50px;background:#222}</style><div class="h" id="shadow-header"></div><div style="height:2400px"></div>';
+</script>
+</body></html>
