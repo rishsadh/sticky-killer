@@ -1,0 +1,288 @@
+{
+  "browser": "chromium",
+  "version": "151.0.7922.34",
+  "date": "2026-09-30",
+  "viewport": "900x700",
+  "rows": [
+    {
+      "label": "baseline (no ancestor styling)",
+      "css": "",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "overflow: hidden",
+      "css": "overflow:hidden",
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "overflow: auto",
+      "css": "overflow:auto",
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "overflow: scroll",
+      "css": "overflow:scroll",
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "overflow: overlay",
+      "css": "overflow:overlay",
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "overflow: clip",
+      "css": "overflow:clip",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "overflow-x: hidden",
+      "css": "overflow-x:hidden",
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "overflow-x: clip",
+      "css": "overflow-x:clip",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "overflow-y: hidden",
+      "css": "overflow-y:hidden",
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "overflow-x: clip + overflow-y: visible",
+      "css": "overflow-x:clip;overflow-y:visible",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "contain: paint",
+      "css": "contain:paint",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "contain: layout",
+      "css": "contain:layout",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "contain: strict",
+      "css": "contain:strict;height:2500px;width:100%",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "contain: content",
+      "css": "contain:content",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "content-visibility: auto",
+      "css": "content-visibility:auto",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "transform: translateZ(0)",
+      "css": "transform:translateZ(0)",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "filter: blur(0)",
+      "css": "filter:blur(0)",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "backdrop-filter: blur(1px)",
+      "css": "backdrop-filter:blur(1px)",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "perspective: 100px",
+      "css": "perspective:100px",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "will-change: transform",
+      "css": "will-change:transform",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "opacity: 0.99",
+      "css": "opacity:.99",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "position: relative",
+      "css": "position:relative",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "position: absolute",
+      "css": "position:absolute;left:0;right:0;top:0",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "isolation: isolate",
+      "css": "isolation:isolate",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "clip-path: inset(0)",
+      "css": "clip-path:inset(0)",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "container-type: inline-size",
+      "css": "container-type:inline-size",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "display: flow-root",
+      "css": "display:flow-root",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "display: contents",
+      "css": "display:contents",
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "html + body both overflow-x: hidden (body becomes the scroll container)",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "only body overflow-x: hidden (propagates to the viewport)",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "only html overflow-x: hidden (applies to the viewport)",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    },
+    {
+      "label": "no inset (top/bottom/left/right all auto)",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "parent is exactly as tall as the sticky element",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "flex parent, child stretched by align-items: stretch",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": -500,
+      "sticks": false
+    },
+    {
+      "label": "flex parent with align-self: flex-start on the sticky child",
+      "css": null,
+      "before": 300,
+      "scrolled": 800,
+      "after": 0,
+      "sticks": true
+    }
+  ]
+}
