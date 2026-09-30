@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "sticky-killer",
+  "version": "0.1.0",
+  "description": "Click the toolbar button to name the ancestor that breaks position: sticky on the current page.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Find what breaks position: sticky",
+    "default_icon": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+  },
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  "background": { "service_worker": "background.js" }
+}
