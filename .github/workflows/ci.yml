@@ -19,3 +19,5 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: npm ci --ignore-scripts || npm install --ignore-scripts
       - run: npm test
+        env:
+          STICKY_KILLER_NO_SANDBOX: '1'
