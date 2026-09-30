@@ -1,0 +1,17 @@
+{
+  "name": "sticky-killer",
+  "version": "0.1.0",
+  "description": "Names the ancestor element that breaks position: sticky, as a devtools snippet, bookmarklet and extension.",
+  "type": "module",
+  "bin": { "sticky-killer": "bin/sticky-killer.mjs" },
+  "files": ["bin", "src", "dist", "extension", "research", "scripts"],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/core.test.js test/build.test.js test/e2e.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["css", "position-sticky", "devtools", "bookmarklet", "debugging", "overflow"],
+  "author": "Rish Sadh",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/rishsadh/sticky-killer.git" }
+}
